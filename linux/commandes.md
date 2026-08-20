@@ -16,3 +16,15 @@ cd ..
 pwd
 cd ~
 pwd
+
+## Exercice 2 : fichiers et dossiers
+
+```bash
+mkdir apprentissage
+cd apprentissage
+touch notes.txt
+echo "Linux est intéressant" > notes.txt
+cat notes.txt
+cp notes.txt copie.txt
+mv copie.txt sauvegarde.txt
+ls -l
